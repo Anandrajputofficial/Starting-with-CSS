@@ -1,0 +1,30 @@
+(1) What is CSS and why use it?
+
+CSS (Cascading Style Sheets) is a stylesheet language used for describing the look and formatting of a document written in a markup language. It is most commonly used to style web pages written in HTML and XHTML, but can also be applied to any kind of XML document, including SVG and XUL.
+
+CSS allows developers to separate the presentation of a document from its structure and content, making it easier to maintain and update the design of a website. It allows for consistent styling across multiple pages and enables the separation of concerns between the designer and the developer. Additionally, it allows the reuse of styles across different pages and can be used to create responsive designs that adapt to different screen sizes.
+
+
+(2) What are the different ways to bring css into an HTML file?
+
+There are four main ways to bring CSS into an HTML file:
+
+Inline styles: adding styles directly to HTML elements using the "style" attribute.
+
+Internal stylesheet: adding a stylesheet to the head of the HTML document using the "style" tag.
+
+External stylesheet: linking a separate CSS file to the HTML document using the "link" tag in the head of the document.
+
+Preprocessed CSS: Using CSS preprocessors(SASS, LESS, etc) and link the output file in HTML.
+
+CSS Frameworks: linking pre-written CSS libraries like Bootstrap, Foundation, Bulma etc. to the HTML file.
+
+(3) What do you mean by specificity in CSS?
+
+Specificity in CSS refers to the determination of which style rules will be applied to an element on a web page. It is a way of calculating the priority of a particular CSS rule and is used to resolve conflicts when multiple rules apply to the same element.
+
+CSS Specificity is calculated by assigning a value to each selector, and then applying the styles of the selector with the highest value. The value is calculated by counting the number of each type of selector in the CSS rule.
+
+For example, an ID selector (#myid) is assigned a higher value than a class selector (.myclass), which in turn is assigned a higher value than a type selector (div, p, etc.). If a single element is selected by multiple selectors, the rule with the highest specificity will be applied.
+
+In short, Specificity in CSS is the weight of a CSS rule and the browser uses this weight to determine which CSS rule to apply to an element.
